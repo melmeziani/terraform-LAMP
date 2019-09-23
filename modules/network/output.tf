@@ -11,9 +11,9 @@ output "private_subnet_two" {
 }
 
 output "web_security_group" {
-  value = aws_subnet.aws_security_group.web_security_group.id
+  value = aws_security_group.web_security_group.id
 }
 
 output "db_security_group" {
-  value = aws_subnet.aws_security_group.db_security_group.id
+  value = aws_security_group.db_security_group.id
 }
